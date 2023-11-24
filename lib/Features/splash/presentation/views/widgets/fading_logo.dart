@@ -18,8 +18,8 @@ class FadingLogo extends StatelessWidget {
           opacity: opacityAnimation.value,
           child: const Image(
             image: AssetImage(AssetsData.splashLogo2),
-            width: 279,
-            height: 279,
+            width: 300,
+            height: 300,
           ),
         );
       },

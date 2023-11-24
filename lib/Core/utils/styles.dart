@@ -2,24 +2,29 @@ import 'package:black_market/constants.dart';
 import 'package:flutter/material.dart';
 
 abstract class Styles {
-  static const montserratRegular = TextStyle(
+  static const almaraiLight = TextStyle(
     fontSize: 18,
-    fontFamily: kMontserratRegular,
+    fontFamily: kAlmaraiLight,
+    fontWeight: FontWeight.w700,
   );
-  static const montserratMedium = TextStyle(
-    fontSize: 20,
-    fontFamily: kMontserratMedium,
+  static const almaraiRegular26 = TextStyle(
+    fontSize: 26,
+    fontFamily: kAlmaraiLight,
+    fontWeight: FontWeight.w700,
   );
-  static const montserratSemiBold = TextStyle(
-    fontSize: 22,
-    fontFamily: kMontserratSemiBold,
+  static const almaraiRegular18 = TextStyle(
+    fontSize: 18,
+    fontFamily: kAlmaraiLight,
+    fontWeight: FontWeight.w700,
   );
-  static const montserratBold = TextStyle(
-    fontSize: 24,
-    fontFamily: kMontserratBold,
+  static const almaraiRegular14 = TextStyle(
+    fontSize: 14,
+    fontFamily: kAlmaraiLight,
+    fontWeight: FontWeight.w700,
   );
-  static const gtSectraFineRegular = TextStyle(
-    fontSize: 24,
-    fontFamily: kGtSectraFineRegular,
+  static const plusJakartaSansRegular18 = TextStyle(
+    fontSize: 18,
+    fontFamily: kPlusJakartaSansRegular,
+    fontWeight: FontWeight.w700,
   );
 }
