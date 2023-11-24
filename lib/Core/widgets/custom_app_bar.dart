@@ -6,7 +6,10 @@ import 'package:flutter_svg/svg.dart';
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar({
     super.key,
+    this.onTap,
   });
+
+  final void Function()? onTap;
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +18,7 @@ class CustomAppBar extends StatelessWidget {
       children: [
         InkWell(
           borderRadius: BorderRadius.circular(16),
-          onTap: () {},
+          onTap: onTap,
           child: SizedBox(
             height: 60,
             width: 60,
