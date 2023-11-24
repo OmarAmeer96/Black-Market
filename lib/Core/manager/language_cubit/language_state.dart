@@ -8,4 +8,5 @@ sealed class LanguageState extends Equatable {
 }
 
 class LanguageInitial extends LanguageState {}
+
 class LanguageChangeState extends LanguageState {}
