@@ -1,6 +1,8 @@
 import 'package:black_market/Core/utils/styles.dart';
 import 'package:black_market/Core/widgets/custom_app_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
 
 class LoginViewBody extends StatelessWidget {
   const LoginViewBody({super.key});
@@ -15,7 +17,7 @@ class LoginViewBody extends StatelessWidget {
           SizedBox(
             width: 252,
             child: Text(
-              "تسجيل الدخول\nإلى حسابك",
+              "",
               textAlign: TextAlign.center,
               style: Styles.almaraiRegular28.copyWith(letterSpacing: 1),
             ),
