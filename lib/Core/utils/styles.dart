@@ -7,8 +7,8 @@ abstract class Styles {
     fontFamily: kAlmaraiLight,
     fontWeight: FontWeight.w700,
   );
-  static const almaraiRegular26 = TextStyle(
-    fontSize: 26,
+  static const almaraiRegular28 = TextStyle(
+    fontSize: 28,
     fontFamily: kAlmaraiLight,
     fontWeight: FontWeight.w700,
   );
