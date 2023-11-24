@@ -21,7 +21,9 @@ class MyApp extends StatelessWidget {
           return MaterialApp.router(
             localizationsDelegates: AppLocalizations.localizationsDelegates,
             supportedLocales: AppLocalizations.supportedLocales,
-            locale: context.read<LanguageCubit>().local,
+            locale: const Locale("ar"),
+            // Old One:
+            // context.read<LanguageCubit>().local,
             title: 'Black Market App',
             routerConfig: AppRouter.router,
             theme: ThemeData.dark().copyWith(
